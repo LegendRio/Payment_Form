@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px 30px ;
+    font-size: 20px;
+    padding: 8px;
+    
+}
+.container{
+    background-color: lightgrey;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+}
+
+input[type = "text"],
+input[type = "email"],
+input[type = "address"],
+input[type = "number"],
+input[type = "password"],
+input[type = "date"]
+select,
+textarea{
+    font-size: 15px;
+    width: 100% ;
+    padding: 12px;
+    border : 1px solid grey;
+    border-radius: 2px;
+    margin: 10px;
+}
+
+fieldset{
+    background-color: lightgrey;
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+.Main_heading{
+    text-align: center;
+}
+
+
+input[value = "Submit"]{
+    font-size: 15px;
+    background-color: lightgreen;
+    color: rgb(69, 69, 69);
+    padding: 12px 500px;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 2px;
+    box-shadow: 10px ;
+    cursor: pointer  ;
+}
+
+input[value = "Submit"] :hover{
+    background-color: darkgreen;
+}
